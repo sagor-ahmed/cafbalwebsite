@@ -1,0 +1,183 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+    .masonry-brick--h:nth-child(10){
+        display: block;
+        position: relative;
+        left: 0px;
+        bottom: 0px;
+    }
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .masonry-brick--h:nth-child(10){
+        display: block;
+        position: relative;
+        left: 0px;
+        bottom: 0px;
+    }
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .administrador-content form {
+        FLEX-DIRECTION: column;
+    }  .masonry-brick--h {
+        height: 250px!important;
+        flex-basis: 33.33%;
+    }
+
+    .masonry-brick--h:nth-child(10){
+        display: block;
+        position: relative;
+        left: 0px;
+        bottom: 0px;
+    }
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .asesoria {
+        padding: 50px 0;
+    }
+    .asesoria-content-hide {
+        display: none;
+    }.asesoria-img-2 {
+        margin: 30px 0px 0px 0;
+    }.asesoria-content {
+        padding-right: 0;
+        padding: 0 20px 0 20px;
+    }
+    .m-heading {
+        margin-bottom: 10px;
+    }
+    .promotion-left-content {
+        padding-right: 0px;
+    }
+    .promotion-right-content {
+        padding-right: 0;
+    }
+    .promotion-right-content .mb-60 {
+        margin-bottom: 20px;
+    }
+    .bg-promotion {
+        margin: 25px 0;
+    }.promotion-bottom-content-left {
+        padding-right: 0;
+    }
+    .promotion-bottom-content-right {
+        padding-right: 0;
+        padding-top: 0;
+    }
+    .promotion-area {
+        padding: 50px 0;
+    }
+    
+    .digital-content-right h3 {
+        margin-bottom: 20px;
+    }
+    .d-c-l-heading {
+        margin-bottom: 25px;
+    }
+    
+    .digital-certificates, .notifications-area {
+        padding: 30px 0 40px 0;
+    }.notifications-area .breadcrumb a li, .promotion-area .breadcrumb a li , .digital-certificates .breadcrumb a li  {
+        margin-bottom: 5px;
+    }.space-rental-area {
+        padding: 20px 0 20px 0;
+    }
+    .space-rental-button {
+        margin-top: 0;
+        padding: 10px 0 40px 0;
+    }.space-rental-left-thumbnail {
+        margin-bottom: 30px;
+    }
+    .administrador-content form {
+        FLEX-DIRECTION: column;
+    }.comunicados-content {
+        flex-direction: column;
+    }.comunicados-content-single {
+        width: 100%;
+    }.comunicados-content-single:nth-child(2) {
+        margin-bottom: 80px;
+    }.comunicados-content-single {
+        margin-bottom: 50px;
+    }
+
+
+    
+    img.pencil {
+        display: none;
+    }
+    .comunicados-ver-todas-btns {
+        margin-top: 40px;
+    }
+   section.comunicados-content-area {
+        padding: 110px 0 110px 0;
+    }
+    section.call-to-action-area {
+        text-align: center;
+    }
+    section.footer-area {
+        padding: 40px 0 65px 20px;
+    }.footer-contact {
+        justify-content: left;
+    }.footer-menu {
+        text-align: left;
+    }.footer-menu ul li a {
+        margin-bottom: 20px;
+    }.footer-widget-4 img {
+        display: none;
+    }.footer-widget-3 {
+        padding-top: 0px;
+    }
+
+    /*hero area responsive css*/
+    .hero-area-single-slide-content .flex-end {
+        justify-content: left;
+    }
+
+    .hero-content-left h2 {
+        font-size: 32px;
+    }
+    .footer-widget-3 ul li:nth-child(2) {
+        padding-left: 0;
+    }
+    .footer-widget-3 ul li:nth-child(3) {
+        padding-left: 0;
+    }
+
+/*masonray responsive css here*/
+    .masonry-brick--h {
+        height: 250px!important;
+        flex-basis: 33.33%;
+    } .masonry-brick--h:nth-child(10){
+        display: block;
+        position: relative;
+        left: 0px;
+        bottom: 0px;
+    }
+    .masonry-brick {
+        margin: 0 0 5px 5px;
+    }
+
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+ 
+}
+@media (max-width: 480px) {
+    .masonry-text h2 {
+        font-size: 15px;
+    }
+}
+
